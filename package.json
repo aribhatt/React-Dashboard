@@ -4,37 +4,25 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.1.0",
+    "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-router": "^4.2.0",
     "react-router-config": "^1.0.0-beta.4",
     "react-scripts": "1.1.4",
-    "react-toolbox": "^2.0.0-beta.12",
     "reactstrap": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "toolbox": "react-toolbox-themr"
+    "toolbox": "react-toolbox-themr",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "node-sass": "^4.9.0",
+    "react-toolbox": "^2.0.0-beta.12",
+    "react-toolbox-themr": "^1.0.2",
     "sass-loader": "^7.0.1"
-  },
-  "reactToolbox": {
-    "include": [
-      "BUTTON",
-      "DATE_PICKER"
-    ],
-    "customProperties": {
-      "animation-duration": "0.3s",
-      "color-accent": "var(--palette-pink-a200)",
-      "color-accent-dark": "var(--palette-pink-700)",
-      "color-primary-contrast": "var(--color-dark-contrast)",
-      "color-accent-contrast": "var(--color-dark-contrast)"
-    },
-    "output": "src/assets/react-toolbox"
   }
 }
