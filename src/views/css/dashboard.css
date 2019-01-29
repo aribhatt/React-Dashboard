@@ -1,0 +1,11 @@
+.side-nav{
+  background-color: #263238;
+  color: white;
+  border-right: none !important;
+}
+
+@media screen and (min-width: 1024px){
+  header > div > button > span.material-icons{
+    display: none !important;
+  }
+}
